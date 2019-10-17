@@ -1,0 +1,233 @@
+.login{
+    width: 60%;
+    height:100%;
+    margin-left: 20%;
+    margin-top: 5%;
+    border: 1px solid;
+    
+}
+.signIn{
+  width: 30%;
+  height:100%;
+  margin-left: 35%;
+  margin-top: 12%;
+  border: 1px solid;
+  border-radius: 1.25rem;
+  background-image: url(../color.png);
+}
+.signUp{
+  width: 35%;
+  height:100%;
+  margin-left: 32%;
+  margin-top: 5%;
+  border: 1px solid;
+  border-radius: 1.25rem;
+  background-image: url(../color.png);
+}
+.PageSwitcher {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 7%;
+  }
+  
+  .PageSwitcher__Item {
+    background-color:lightgray;
+    color: black;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-size: .9em;
+    border: none;
+    outline: none;
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  .PageSwitcher_Active {
+    background-color:orange;
+    color: white;
+  }
+  
+  .PageSwitcher__Item:first-child {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+  }
+  .PageSwitcher__Item:last-child {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+
+  .FormCenter {
+    margin-bottom: 10px;
+  }
+ .registerForm{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    background-image: url(../color.png);
+  border: 1px solid;
+  border-radius: 1.25rem;
+  width:60%;
+  }
+   
+  .FormTitle {
+    color: white;
+    font-weight: 300;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  .FormTitle__Link {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.7em;
+    margin: 0 10px;
+    padding-bottom: 5px;
+  }
+  
+  .FormTitle__Link:first-child {
+    margin-left: 0;
+  }
+  
+  .FormTitle__Link__Active {
+    color: black;
+    border-bottom: 1px solid #199087;
+  }
+  
+
+   
+  .FormField_textarea {
+    background-color: transparent;
+    border: none;
+    width:100%;
+    font-size: 1em;
+    font-weight: 300;
+    color: white;
+    outline: none;
+  
+    border-bottom: 1px solid #445366;
+  }
+   
+  .FormField__Label {
+    display: block;
+ text-transform: uppercase;
+ font-size: .9em;
+ color: white;
+ margin-top: 4px !important;
+  }  
+  .FormField__input {
+    width: 100%;
+ background-color: transparent;
+ border: none;
+ color: white;
+ outline: none;
+ border-bottom: 1px solid #445366;
+ font-size: 1em;
+ font-weight: 300;
+ padding-bottom: 10px;
+ margin-bottom: 17px;
+  
+  }
+
+  ::placeholder { 
+    color: whitesmoke;
+  }
+  
+  .FormField_select{
+     width: 100%;
+     background-color: transparent;
+     border: none;
+     border-bottom: 1px solid #445366;
+     color:black;
+     font-size: 1em;
+     font-weight: 300;
+  }
+
+  .FormField_radio{
+    display: block;
+    font-size: .9em;
+    color: black;
+    text-align: left;
+    margin-bottom: 40px;
+  }
+
+  .FormField__Button {
+    background-color: green;
+    color: black;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    padding: 15px 70px;
+    font-size: .8em;
+    font-weight: 500;
+  }
+  
+  .FormField__Link {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 1.5px solid #225E62;
+    padding-bottom: 5px;
+  }
+  
+  .FormField__CheckboxLabel {
+    color: black;
+    font-size: .9em;
+  }
+  
+  .FormField__Checkbox {
+    position: relative;
+    top: 1.5px;
+  }
+  
+  .FormField__TermsLink {
+    color: black;
+    border-bottom: 1px solid #199087;
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 2px;
+    margin-left: 5px;
+  }
+
+.warning{
+  color:red;
+}
+.td{
+  border-top:none !important;
+}
+.signIn_btn{
+   margin-left: 5px;
+   background-color: lightgray;
+}
+.register_btn{
+  margin-top: 2%;
+  margin-left: 45%;
+  background-color: lightgray;
+}
+.h1_register{
+  text-align: center;
+  color: white;
+  margin-bottom: 4%;
+  margin-top: 2%;
+}
+.row{
+       margin-right: 0px !important; 
+    margin-left: 0px !important;
+}
+.register{
+  height:100%;
+  
+}
+.createUser{
+  width: 35%;
+  height:100%;
+  margin-left: 4%;
+  margin-top: 4%;
+  background-image: url(../color.png);
+  border: 1px solid;
+  border-radius: 1.25rem;
+}
+.createUser_btn{
+  margin-left: 40%;
+  background-color: lightgray;
+}
